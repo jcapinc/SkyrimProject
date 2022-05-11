@@ -18,22 +18,6 @@ add.onclick = function() {
     output.innerHTML = currentAmount;
 }
 
-const stringType = "a string";
-console.log("stringType", typeof stringType);
-const booleanType = true;
-console.log("booleanType", typeof booleanType);
-const numberType = Number.MAX_SAFE_INTEGER;
-console.log("numberType", typeof numberType);
-const nullType = null;
-console.log("nullType", typeof nullType);
-const undefinedType = undefined;
-console.log("undefinedType", typeof undefinedType);
-const arrayType = [];
-console.log("arrayType", typeof arrayType);
-const objectType = {};
-console.log("objectType", typeof objectType);
-console.log("jim", typeof jim);
-
 
 const Effects = [
 	"Cure Disease",
