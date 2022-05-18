@@ -1,23 +1,24 @@
-let currentAmount = 0;
 
-const add = document.getElementById("add");
-const subtract = document.getElementById("subtract")
+function Calculator() {
+	let currentAmount = 0;
+	const add = document.getElementById("add");
+	const subtract = document.getElementById("subtract")
 
-const inputField = document.getElementById("input");
+	const inputField = document.getElementById("input");
 
-const output = document.getElementById("output");
+	const output = document.getElementById("output");
 
-output.innerHTML = currentAmount;
+	output.innerHTML = currentAmount;
 
-subtract.onclick = function(){
-    currentAmount = currentAmount - parseInt(inputField.value);
-    output.innerHTML = currentAmount;
+	subtract.onclick = function(){
+		currentAmount = currentAmount - parseInt(inputField.value);
+		output.innerHTML = currentAmount;
+	}
+	add.onclick = function() {
+		currentAmount = currentAmount + parseInt(inputField.value);
+		output.innerHTML = currentAmount;
+	}
 }
-add.onclick = function() {
-    currentAmount = currentAmount + parseInt(inputField.value);
-    output.innerHTML = currentAmount;
-}
-
 
 const Effects = [
 	"Cure Disease",
@@ -189,3 +190,16 @@ const Ingredients = [
 	"Yellow Mountain Flower 🌻",
 
 ];
+
+function ShowList(list) {
+	for (const value of list) {
+		const element = document.createElement("li");
+		element.innerText = `😎 ${value} 😎`;
+		document.getElementById("list").appendChild(element);
+	}
+}
+
+ShowList(Ingredients);
+ShowList(Effects);
+ShowList(Ingredients);
+ShowList(Effects);
