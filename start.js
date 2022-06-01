@@ -85,7 +85,7 @@ const Ingredients = [
 	"Ash Hopper Jelly",
 	"Ashen Grasspod",
 	"Bear Claws",
-	"Bee",
+	"Bee 🐝",
 	"Beehive Husk",
 	"Berit's Ashes",
 	"Bleeding Crown",
@@ -191,15 +191,63 @@ const Ingredients = [
 
 ];
 
+function addListItem(value, id = "Effects") {
+	const element = document.createElement("li");
+	element.innerText = `${value}`;
+	document.getElementById(id).appendChild(element);
+}
+
 function ShowList(list) {
 	for (const value of list) {
-		const element = document.createElement("li");
-		element.innerText = `😎 ${value} 😎`;
-		document.getElementById("list").appendChild(element);
+		addListItem(value);
 	}
 }
 
-ShowList(Ingredients);
-ShowList(Effects);
-ShowList(Ingredients);
-ShowList(Effects);
+
+function DisplayEffects() {
+	for (const effect of Effects) {
+		addListItem(effect);
+	}
+}
+// 🐝 BEE FEAR 😱
+function CreateDropdown(name, list, parent) {
+	const selectElement = document.createElement("select");
+	parent.appendChild(selectElement);
+
+	const blankOption = document.createElement('option');
+	blankOption.innerHTML = "-- Choose " + name + " --";
+	blankOption.value = "";
+	selectElement.appendChild(blankOption);
+
+	for (const element of list) {
+		const newOption = document.createElement('option');
+		newOption.innerHTML = element;
+		newOption.value = element;
+		selectElement.appendChild(newOption);
+	}
+}
+
+function CreateIngredientForm(ingredient, parent) {
+	const formContainer = document.createElement("div");
+	parent.appendChild(formContainer);
+	
+	const title = document.createElement("h2");
+	formContainer.appendChild(title);
+	title.innerHTML = "Tell me the effects for " + ingredient;
+
+	CreateDropdown("Effect", Effects, formContainer);
+	CreateDropdown("Effect", Effects, formContainer);
+	CreateDropdown("Effect", Effects, formContainer);
+	CreateDropdown("Effect", Effects, formContainer);
+}
+
+function Test() {
+	for(const ingredient of Ingredients) {
+
+		CreateIngredientForm(ingredient, document.body);
+	}
+	//CreateDropdown("Ingredient", Ingredients, document.body)
+	//CreateDropdown("Effects", Effects, document.body)
+}
+
+Test();
