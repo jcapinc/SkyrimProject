@@ -210,7 +210,7 @@ function DisplayEffects() {
 	}
 }
 // 🐝 BEE FEAR 😱
-function CreateDropdown(name, list, parent) {
+function CreateDropdown(name, list, parent, currentValue = "") {
 	const selectElement = document.createElement("select");
 	parent.appendChild(selectElement);
 
@@ -225,23 +225,55 @@ function CreateDropdown(name, list, parent) {
 		newOption.value = element;
 		selectElement.appendChild(newOption);
 	}
+	selectElement.value = currentValue;
+	return selectElement;
+}
+
+function getDB() {
+	const rawData = localStorage.getItem("ingredientEffects");
+	const db = rawData === null 
+		? {} 
+		: JSON.parse(rawData);
+	return db;
 }
 
 function CreateIngredientForm(ingredient, parent) {
 	const formContainer = document.createElement("div");
+	formContainer.classList.add("form-container", ingredient.toLowerCase().replaceAll(" ", "-"));
 	parent.appendChild(formContainer);
 	
 	const title = document.createElement("h2");
 	formContainer.appendChild(title);
 	title.innerHTML = "Tell me the effects for " + ingredient;
 
-	CreateDropdown("Effect", Effects, formContainer);
-	CreateDropdown("Effect", Effects, formContainer);
-	CreateDropdown("Effect", Effects, formContainer);
-	CreateDropdown("Effect", Effects, formContainer);
+	const effectContainer = document.createElement("div");
+	formContainer.appendChild(effectContainer);
+
+	const db = getDB();
+	const ingredientData = db[ingredient] || [];
+
+	const Effect1 = CreateDropdown("Effect", Effects, effectContainer, ingredientData[0]);
+	const Effect2 = CreateDropdown("Effect", Effects, effectContainer, ingredientData[1]);
+	const Effect3 = CreateDropdown("Effect", Effects, effectContainer, ingredientData[2]);
+	const Effect4 = CreateDropdown("Effect", Effects, effectContainer, ingredientData[3]);
+
+	const submitButton = document.createElement("button");
+	formContainer.appendChild(submitButton);
+	submitButton.innerText = "Save Effects";
+	submitButton.addEventListener("click", function() {
+		const db = getDB();
+		db[ingredient] = [
+			Effect1.value,
+			Effect2.value,
+			Effect3.value,
+			Effect4.value
+		];
+		localStorage.setItem("ingredientEffects", JSON.stringify(db));
+	});
+
 }
 
-function Test() {
+function ShowIngredientForms() {
 	for(const ingredient of Ingredients) {
 
 		CreateIngredientForm(ingredient, document.body);
@@ -250,4 +282,17 @@ function Test() {
 	//CreateDropdown("Effects", Effects, document.body)
 }
 
-Test();
+function CopyDatabase(target) {
+	const button = document.createElement("button");
+	const value = localStorage.getItem("ingredientEffects");
+	target.appendChild(button);
+	button.addEventListener('click', () => {
+		navigator.clipboard.writeText(value);
+	});
+	button.innerText = "Copy Database to Clipboard";
+}
+
+// CopyDatabase(document.body);
+// ShowIngredientForms();
+
+// yeet monokai pro (╯°□°）╯︵ ┻━┻ 

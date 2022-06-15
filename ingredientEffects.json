@@ -1,0 +1,656 @@
+{
+    "Abedean Longfin": [
+        "Fortify Restoration",
+        "Fortify Sneak",
+        "Weakness To Frost",
+        "Weakness To Poison"
+    ],
+    "Bear Claws": [
+        "Damage Magicka Regen",
+        "Fortify Health",
+        "Fortify One-Handed",
+        "Restore Stamina"
+    ],
+    "Ashen Grasspod": [
+        "Fortify Lockpicking",
+        "Fortify Sneak",
+        "Resist Fire",
+        "Weakness To Shock"
+    ],
+    "Ash Hopper Jelly": [
+        "Fortify Light Armor",
+        "Resist Shock",
+        "Restore Health",
+        "Weakness To Frost"
+    ],
+    "Ash Creep Cluster": [
+        "Damage Stamina",
+        "Fortify Destruction",
+        "Invisibility",
+        "Resist Fire"
+    ],
+    "Ancestor Mothwing": [
+        "Damage Magicka Regen",
+        "Damage Stamina",
+        "Fortify Conjuration",
+        "Fortify Enchanting"
+    ],
+    "Bee 🐝": [
+        "Ravage Stamina",
+        "Regenerate Stamina",
+        "Restore Stamina",
+        "Weakness To Shock"
+    ],
+    "Beehive Husk": [
+        "Fortify Destruction",
+        "Fortify Light Armor",
+        "Fortify Sneak",
+        "Resist Poison"
+    ],
+    "Berit's Ashes": [
+        "Damage Stamina",
+        "Fortify Conjuration",
+        "Ravage Stamina",
+        "Resist Frost"
+    ],
+    "Bleeding Crown": [
+        "Fortify Block",
+        "Resist Magicka",
+        "Weakness To Fire",
+        "Weakness To Poison"
+    ],
+    "Blisterwort": [
+        "Damage Stamina",
+        "Fortify Smithing",
+        "Frenzy",
+        "Restore Health"
+    ],
+    "Blue Butterfly Wing": [
+        "Damage Magicka Regen",
+        "Damage Stamina",
+        "Fortify Conjuration",
+        "Fortify Enchanting"
+    ],
+    "Blue Dartwing": [
+        "Fear",
+        "Fortify Pickpocket",
+        "Resist Shock",
+        "Restore Health"
+    ],
+    "Blue Mountain Flower": [
+        "Damage Magicka Regen",
+        "Fortify Conjuration",
+        "Fortify Health",
+        "Restore Health"
+    ],
+    "Boar Tusk": [
+        "Fortify Block",
+        "Fortify Health",
+        "Fortify Smithing",
+        "Frenzy"
+    ],
+    "Bone Meal": [
+        "Damage Stamina",
+        "Fortify Conjuration",
+        "Ravage Stamina",
+        "Resist Fire"
+    ],
+    "Briar Heart": [
+        "Fortify Block",
+        "Fortify Magicka",
+        "Paralysis",
+        "Restore Magicka"
+    ],
+    "Burnt Spriggan Wood": [
+        "Damage Magicka Regen",
+        "Fortify Alteration",
+        "Slow",
+        "Weakness To Fire"
+    ],
+    "Butterfly Wing": [
+        "Damage Magicka",
+        "Fortify Barter",
+        "Lingering Damage Stamina",
+        "Restore Health"
+    ],
+    "Canis Root": [
+        "Damage Stamina",
+        "Fortify Marksman",
+        "Fortify One-Handed",
+        "Paralysis"
+    ],
+    "Charred Skeever Hide": [
+        "Cure Disease",
+        "Resist Poison",
+        "Restore Health",
+        "Restore Stamina"
+    ],
+    "Chaurus Eggs": [
+        "Damage Magicka",
+        "Fortify Stamina",
+        "Invisibility",
+        "Weakness To Poison"
+    ],
+    "Chaurus Hunter Antennae": [
+        "Damage Magicka Regen",
+        "Damage Stamina",
+        "Fortify Conjuration",
+        "Fortify Enchanting"
+    ],
+    "Chicken Egg": [
+        "Damage Magicka Regen",
+        "Lingering Damage Stamina",
+        "Resist Magicka",
+        "Water Breathing"
+    ],
+    "Creep Cluster": [
+        "Damage Stamina Regen",
+        "Fortify Carry Weight",
+        "Restore Magicka",
+        "Weakness To Magicka"
+    ],
+    "Crimson Nirnroot": [
+        "Damage Health",
+        "Damage Stamina",
+        "Invisibility",
+        "Resist Magicka"
+    ],
+    "Cyrodilic Spadetail": [
+        "Damage Stamina",
+        "Fear",
+        "Fortify Restoration",
+        "Ravage Health"
+    ],
+    "Daedra Heart": [
+        "Damage Magicka",
+        "Damage Stamina Regen",
+        "Fear",
+        "Restore Health"
+    ],
+    "Deathbell": [
+        "Damage Magicka",
+        "Ravage Stamina",
+        "Slow",
+        "Weakness To Poison"
+    ],
+    "Dragon Tongue": [
+        "Fortify Barter",
+        "Fortify Illusion",
+        "Fortify Two-Handed",
+        "Resist Fire"
+    ],
+    "Dwarven Oil": [
+        "Fortify Illusion",
+        "Regenerate Magicka",
+        "Restore Magicka",
+        "Weakness To Magicka"
+    ],
+    "Ectoplasm": [
+        "Damage Health",
+        "Fortify Destruction",
+        "Fortify Magicka",
+        "Restore Magicka"
+    ],
+    "Elves Ear": [
+        "Fortify Marksman",
+        "Resist Fire",
+        "Restore Magicka",
+        "Weakness To Frost"
+    ],
+    "Emperor Parasol Moss": [
+        "Damage Health",
+        "Fortify Magicka",
+        "Fortify Two-Handed",
+        "Regenerate Health"
+    ],
+    "Eye of Saber Cat": [
+        "Damage Magicka",
+        "Ravage Health",
+        "Restore Health",
+        "Restore Stamina"
+    ],
+    "Falmer Ear": [
+        "Damage Health",
+        "Fortify Lockpicking",
+        "Frenzy",
+        "Resist Poison"
+    ],
+    "Felsaad Tern Feathers": [
+        "Cure Disease",
+        "Fortify Light Armor",
+        "Resist Magicka",
+        "Restore Health"
+    ],
+    "Fire Salts": [
+        "Regenerate Magicka",
+        "Resist Fire",
+        "Restore Magicka",
+        "Weakness To Frost"
+    ],
+    "Fly Amanta": [
+        "Fortify Two-Handed",
+        "Frenzy",
+        "Regenerate Stamina",
+        "Resist Fire"
+    ],
+    "Frost Mirriam": [
+        "Damage Stamina Regen",
+        "Fortify Sneak",
+        "Ravage Magicka",
+        "Resist Frost"
+    ],
+    "Frost Salts": [
+        "Fortify Conjuration",
+        "Resist Frost",
+        "Restore Magicka",
+        "Weakness To Fire"
+    ],
+    "Garlic": [
+        "Fortify Stamina",
+        "Regenerate Health",
+        "Regenerate Magicka",
+        "Resist Poison"
+    ],
+    "Giant Lichen": [
+        "Ravage Health",
+        "Restore Magicka",
+        "Weakness To Poison",
+        "Weakness To Shock"
+    ],
+    "Giant's Toe": [
+        "Damage Stamina",
+        "Damage Stamina Regen",
+        "Fortify Carry Weight",
+        "Fortify Health"
+    ],
+    "Gleam Bloom": [
+        "Fear",
+        "Paralysis",
+        "Regenerate Health",
+        "Resist Magicka"
+    ],
+    "Glow Dust": [
+        "Damage Magicka",
+        "Damage Magicka Regen",
+        "Fortify Destruction",
+        "Resist Shock"
+    ],
+    "Glowing Mushroom": [
+        "Fortify Destruction",
+        "Fortify Health",
+        "Fortify Smithing",
+        "Resist Shock"
+    ],
+    "Grass Pod": [
+        "Fortify Alteration",
+        "Ravage Magicka",
+        "Resist Poison",
+        "Restore Magicka"
+    ],
+    "Hagraven Claw": [
+        "Fortify Barter",
+        "Fortify Enchanting",
+        "Lingering Damage Magicka",
+        "Resist Magicka"
+    ],
+    "Hagraven Feathers": [
+        "Damage Magicka",
+        "Fortify Conjuration",
+        "Frenzy",
+        "Weakness To Shock"
+    ],
+    "Hanging Moss": [
+        "Damage Magicka",
+        "Damage Magicka Regen",
+        "Fortify Health",
+        "Fortify One-Handed"
+    ],
+    "Hawk Beak": [
+        "Fortify Carry Weight",
+        "Resist Frost",
+        "Resist Shock",
+        "Restore Stamina"
+    ],
+    "Hawk Feathers": [
+        "Damage Magicka",
+        "Fortify Conjuration",
+        "Frenzy",
+        "Weakness To Shock"
+    ],
+    "Histcarp": [
+        "Damage Stamina Regen",
+        "Fortify Magicka",
+        "Restore Stamina",
+        "Water Breathing"
+    ],
+    "Honey Comb": [
+        "Fortify Block",
+        "Fortify Light Armor",
+        "Ravage Stamina",
+        "Restore Stamina"
+    ],
+    "Human Flesh": [
+        "Damage Health",
+        "Fortify Sneak",
+        "Paralysis",
+        "Restore Magicka"
+    ],
+    "Human Heart": [
+        "Damage Health",
+        "Damage Magicka",
+        "Damage Magicka Regen",
+        "Frenzy"
+    ],
+    "Ice Wraith Teeth": [
+        "Fortify Heavy Armor",
+        "Invisibility",
+        "Weakness To Fire",
+        "Weakness To Frost"
+    ],
+    "Imp Stool": [
+        "Damage Health",
+        "Lingering Damage Health",
+        "Paralysis",
+        "Restore Health"
+    ],
+    "Jarrin Root": [
+        "Damage Health",
+        "Damage Magicka",
+        "Damage Magicka Regen",
+        "Damage Stamina"
+    ],
+    "Jazbay Grapes": [
+        "Fortify Magicka",
+        "Ravage Health",
+        "Regenerate Magicka",
+        "Weakness To Magicka"
+    ],
+    "Juniper Berries": [
+        "Damage Stamina Regen",
+        "Fortify Marksman",
+        "Regenerate Health",
+        "Weakness To Fire"
+    ],
+    "Large Antlers": [
+        "Damage Stamina Regen",
+        "Fortify Stamina",
+        "Restore Stamina",
+        "Slow"
+    ],
+    "Lavender": [
+        "Fortify Conjuration",
+        "Fortify Stamina",
+        "Ravage Magicka",
+        "Resist Magicka"
+    ],
+    "Luna Moth Wing": [
+        "Damage Magicka",
+        "Fortify Light Armor",
+        "Invisibility",
+        "Regenerate Health"
+    ],
+    "Moon Sugar": [
+        "Regenerate Magicka",
+        "Resist Frost",
+        "Restore Magicka",
+        "Weakness To Fire"
+    ],
+    "Mora Tapinella": [
+        "Fortify Illusion",
+        "Lingering Damage Health",
+        "Regenerate Stamina",
+        "Restore Magicka"
+    ],
+    "Mudcrab Chitin": [
+        "Cure Disease",
+        "Resist Fire",
+        "Resist Poison",
+        "Restore Stamina"
+    ],
+    "Namira's Rot": [
+        "Damage Magicka",
+        "Fear",
+        "Fortify Lockpicking",
+        "Regenerate Health"
+    ],
+    "Netch Jelly": [
+        "Fear",
+        "Fortify Carry Weight",
+        "Paralysis",
+        "Restore Stamina"
+    ],
+    "Nightshade": [
+        "Damage Health",
+        "Damage Magicka Regen",
+        "Fortify Destruction",
+        "Lingering Damage Stamina"
+    ],
+    "Nirnroot": [
+        "Damage Health",
+        "Damage Stamina",
+        "Invisibility",
+        "Resist Magicka"
+    ],
+    "Nordic Barnacle": [
+        "Damage Magicka",
+        "Fortify Pickpocket",
+        "Regenerate Health",
+        "Water Breathing"
+    ],
+    "Orange Dartwing": [
+        "Fortify Pickpocket",
+        "Lingering Damage Health",
+        "Ravage Magicka",
+        "Restore Stamina"
+    ],
+    "Pearl": [
+        "Fortify Block",
+        "Resist Shock",
+        "Restore Magicka",
+        "Restore Stamina"
+    ],
+    "Pine Thrush Egg": [
+        "Fortify Lockpicking",
+        "Resist Shock",
+        "Restore Stamina",
+        "Weakness To Poison"
+    ],
+    "Poison Bloom": [
+        "Damage Health",
+        "Fear",
+        "Fortify Carry Weight",
+        "Slow"
+    ],
+    "Powdered Mammoth Tusk": [
+        "Fear",
+        "Fortify Sneak",
+        "Restore Stamina",
+        "Weakness To Fire"
+    ],
+    "Purple Mountain Flower": [
+        "Fortify Sneak",
+        "Lingering Damage Magicka",
+        "Resist Frost",
+        "Restore Stamina"
+    ],
+    "Red Mountain Flower": [
+        "Damage Health",
+        "Fortify Magicka",
+        "Ravage Magicka",
+        "Restore Magicka"
+    ],
+    "River Betty": [
+        "Damage Health",
+        "Fortify Alteration",
+        "Fortify Carry Weight",
+        "Slow"
+    ],
+    "Rock Warbler Egg": [
+        "Damage Stamina",
+        "Fortify Marksman",
+        "Restore Health",
+        "Weakness To Magicka"
+    ],
+    "Saber Cat Tooth": [
+        "Fortify Heavy Armor",
+        "Fortify Stamina",
+        "Restore Stamina",
+        "Weakness To Poison"
+    ],
+    "Salt Pile": [
+        "Fortify Restoration",
+        "Regenerate Magicka",
+        "Slow",
+        "Weakness To Magicka"
+    ],
+    "Scaly Pholiota": [
+        "Fortify Carry Weight",
+        "Fortify Illusion",
+        "Regenerate Stamina",
+        "Weakness To Magicka"
+    ],
+    "Scathecraw": [
+        "Lingering Damage Health",
+        "Ravage Health",
+        "Ravage Magicka",
+        "Ravage Stamina"
+    ],
+    "Silverside Perch": [
+        "Damage Stamina Regen",
+        "Ravage Health",
+        "Resist Frost",
+        "Restore Stamina"
+    ],
+    "Skeever Tail": [
+        "Damage Health",
+        "Damage Stamina Regen",
+        "Fortify Light Armor",
+        "Ravage Health"
+    ],
+    "Slaughterfish Egg": [
+        "Fortify Pickpocket",
+        "Fortify Stamina",
+        "Lingering Damage Health",
+        "Resist Poison"
+    ],
+    "Slaughterfish Scales": [
+        "Fortify Block",
+        "Fortify Heavy Armor",
+        "Lingering Damage Health",
+        "Resist Poison"
+    ],
+    "Small Antlers": [
+        "Damage Health",
+        "Fortify Restoration",
+        "Lingering Damage Stamina",
+        "Weakness To Poison"
+    ],
+    "Small Pearl": [
+        "Fortify One-Handed",
+        "Fortify Restoration",
+        "Resist Fire",
+        "Restore Stamina"
+    ],
+    "Snowberries": [
+        "Fortify Enchanting",
+        "Resist Fire",
+        "Resist Frost",
+        "Resist Shock"
+    ],
+    "Spawn Ash": [
+        "Fortify Enchanting",
+        "Ravage Magicka",
+        "Ravage Stamina",
+        "Resist Fire"
+    ],
+    "Spider Egg": [
+        "Damage Magicka Regen",
+        "Damage Stamina",
+        "Fortify Lockpicking",
+        "Fortify Marksman"
+    ],
+    "Spriggan Sap": [
+        "Damage Magicka Regen",
+        "Fortify Alteration",
+        "Fortify Enchanting",
+        "Fortify Smithing"
+    ],
+    "Swamp Fungal Pod": [
+        "Lingering Damage Magicka",
+        "Paralysis",
+        "Resist Shock",
+        "Restore Health"
+    ],
+    "Taproot": [
+        "Fortify Illusion",
+        "Regenerate Magicka",
+        "Restore Magicka",
+        "Weakness To Magicka"
+    ],
+    "Thistle Branch": [
+        "Fortify Heavy Armor",
+        "Ravage Stamina",
+        "Resist Frost",
+        "Resist Poison"
+    ],
+    "Torchbug Thorax": [
+        "Fortify Stamina",
+        "Lingering Damage Magicka",
+        "Restore Stamina",
+        "Weakness To Magicka"
+    ],
+    "Trama Root": [
+        "Damage Magicka",
+        "Fortify Carry Weight",
+        "Slow",
+        "Weakness To Shock"
+    ],
+    "Troll Fat": [
+        "Damage Health",
+        "Fortify Two-Handed",
+        "Frenzy",
+        "Resist Poison"
+    ],
+    "Tundra Cotton": [
+        "Fortify Barter",
+        "Fortify Block",
+        "Fortify Magicka",
+        "Resist Magicka"
+    ],
+    "Vampire Dust 🦇": [
+        "Cure Disease",
+        "Invisibility",
+        "Regenerate Health",
+        "Resist Magicka"
+    ],
+    "Void Salts 🧂": [
+        "Damage Health",
+        "Fortify Magicka",
+        "Resist Magicka",
+        "Weakness To Shock"
+    ],
+    "Wheat 🌾": [
+        "Damage Stamina Regen",
+        "Fortify Health",
+        "Lingering Damage Magicka",
+        "Restore Health"
+    ],
+    "White Cap 🍄": [
+        "Fortify Heavy Armor",
+        "Ravage Magicka",
+        "Restore Magicka",
+        "Weakness To Frost"
+    ],
+    "Wisp Wrapping": [
+        "Fortify Carry Weight",
+        "Fortify Destruction",
+        "Resist Magicka",
+        "Restore Stamina"
+    ],
+    "Yellow Mountain Flower 🌻": [
+        "Damage Stamina Regen",
+        "Fortify Health",
+        "Fortify Restoration",
+        "Resist Poison"
+    ]
+}
