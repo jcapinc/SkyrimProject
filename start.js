@@ -296,3 +296,18 @@ function CopyDatabase(target) {
 // ShowIngredientForms();
 
 // yeet monokai pro (╯°□°）╯︵ ┻━┻ 
+function displayDatabase() {
+	const IngredientsWithEffects  = document.createElement("ul");
+	document.body.appendChild(IngredientsWithEffects);
+	const get = localStorage.getItem("ingredientEffects");
+	const Database = JSON.parse(get);
+	for (const alchemy in Database) {
+		const alchemyElement = document.createElement("li")
+		IngredientsWithEffects.appendChild(alchemyElement);
+		alchemyElement.innerHTML = alchemy;
+		// Add inner lists here b'okay
+	}
+	
+}
+
+displayDatabase();
