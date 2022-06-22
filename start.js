@@ -301,13 +301,104 @@ function displayDatabase() {
 	document.body.appendChild(IngredientsWithEffects);
 	const get = localStorage.getItem("ingredientEffects");
 	const Database = JSON.parse(get);
+
+	/*
+	Structure of database: 
+	{
+		"Bees 🐝": [
+			"Fear",
+			"Sting",
+			"Buzz",
+			"Fluff"
+		]
+	}
+	*/
 	for (const alchemy in Database) {
+		// In the example above, the variable "alchemy" === "Bees 🐝"
 		const alchemyElement = document.createElement("li")
 		IngredientsWithEffects.appendChild(alchemyElement);
 		alchemyElement.innerHTML = alchemy;
-		// Add inner lists here b'okay
+		const alchemyUL = document.createElement("ul");
+		alchemyElement.appendChild(alchemyUL);
+		const innerAlchemy = document.createElement("li")
+		alchemyUL.appendChild(innerAlchemy)
+		// I had teh wrong name lol oops
+		// We need this innerhtml to be set to the value of Database[alchemy][0] ✅
+		innerAlchemy.innerHTML = Database[alchemy][0]
+		const innerAlchemy2 = document.createElement("li")
+		alchemyUL.appendChild(innerAlchemy2)
+		// We need this innerhtml to be set to the value of Database[alchemy][1] ✅
+		innerAlchemy2.innerHTML = Database[alchemy][1]
+		const innerAlchemy3 = document.createElement("li")
+		alchemyUL.appendChild(innerAlchemy3)
+		// We need this innerhtml to be set to the value of Database[alchemy][2] ✅
+		innerAlchemy3.innerHTML = Database[alchemy][2]
+		const innerAlchemy4 = document.createElement("li")
+		alchemyUL.appendChild(innerAlchemy4)
+		// We need this innerhtml to be set to the value of Database[alchemy][3] ✅
+		innerAlchemy4.innerHTML = Database[alchemy][3]
+
 	}
-	
 }
 
+/*
+Structure of database: 
+{
+	"Bees 🐝": [
+		"Fear",
+		"Sting",
+		"Buzz",
+		"Fluff"
+	]
+}
+*/
+function getIngredientsByEffect(Database, ValidEffect = Effects[0] ) {
+	const ValidIngredients = [];
+	Object.keys(Database).map(ingredient => {
+		Database[ingredient].map(effect => {
+			if (effect === ValidEffect) {
+				ValidIngredients.push(ingredient);
+			}
+		});
+	});
+	// for ( const key in Database) {
+	// 	for (const effect of Database[key]) {
+	// 		if (effect === ValidEffect) {
+	// 			ValidIngredients.push(key);
+	// 			break;
+	// 		}
+	// 	}
+	// }
+	console.log({ValidEffect, ValidIngredients})
+	return ValidIngredients;
+}
+
+function showIngredientsByEffects(Database, target = document.body) {
+	const selectElement = document.createElement("select");
+	target.append(selectElement);
+	Effects.map( effect => {
+		const option = document.createElement("option");
+		option.innerHTML = effect;
+		option.value = effect;
+		selectElement.append(option);
+	});
+	const ingredientContainer = document.createElement("div");
+	target.append(ingredientContainer);
+	selectElement.addEventListener("change", () => {
+		ingredientContainer.innerHTML = "";
+		const list = document.createElement("ul");
+		ingredientContainer.append(list);
+		getIngredientsByEffect(Database, selectElement.value).map(ingredient => {
+			const item = document.createElement("li");
+			list.append(item);
+			item.innerHTML = ingredient;
+		});
+	});
+}
+
+
+const rawdata = localStorage.getItem("ingredientEffects")
+const database = JSON.parse(rawdata);
+
+showIngredientsByEffects(database);
 displayDatabase();
