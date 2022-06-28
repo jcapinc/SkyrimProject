@@ -396,9 +396,21 @@ function showIngredientsByEffects(Database, target = document.body) {
 	});
 }
 
-
+(async function () {
+	
 const rawdata = localStorage.getItem("ingredientEffects")
-const database = JSON.parse(rawdata);
+if (rawdata === null) {
+	document.body.innerHTML = "Loading Database, Reloading Page soon..."
+	const response = await fetch("./ingredientEffects.json")
+	const body = await response.json();
+	localStorage.setItem("ingredientEffects", JSON.stringify(body));
+	setTimeout(() => {
+		window.location.reload();
+	}, 5000);
+} else {
+	const database = JSON.parse(rawdata);
 
-showIngredientsByEffects(database);
-displayDatabase();
+	showIngredientsByEffects(database);
+	displayDatabase();
+}
+})()
